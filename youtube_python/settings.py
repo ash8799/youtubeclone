@@ -56,7 +56,7 @@ ROOT_URLCONF = 'youtube_python.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['youtube'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
